@@ -1,0 +1,15 @@
+#pragma once
+#include "glc2d.h"
+class SceneBegin
+{
+public:
+	int Init();
+	int Destroy();
+	int Render();
+	int Update();
+protected:
+	VEC2 pos = { 80.0f, 30.0f };
+	VEC2 scale = { 0.3f, 0.3f };
+
+};
+
